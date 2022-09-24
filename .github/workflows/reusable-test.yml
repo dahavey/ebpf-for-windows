@@ -130,7 +130,7 @@ jobs:
 
     - name: Upload Report to Codecov
       if: inputs.code_coverage == true
-      uses: codecov/codecov-action@e3c560433a6cc60aec8812599b7844a7b4fa0d71
+      uses: codecov/codecov-action@d9f34f8cd5cb3b3eb79b3e4b5dae3a16df499a70
       id: upload_code_coverage_report
       with:
         files: ebpf_for_windows_${{env.BUILD_CONFIGURATION}}.xml
