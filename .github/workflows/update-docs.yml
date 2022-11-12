@@ -30,7 +30,7 @@ jobs:
     steps:
 
     - name: Harden Runner
-      uses: step-security/harden-runner@9b0655f430fba8c7001d4e38f8d4306db5c6e0ab
+      uses: step-security/harden-runner@ebacdc22ef6c2cfb85ee5ded8f2e640f4c776dd5
       with:
         egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
